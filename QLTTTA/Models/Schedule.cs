@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,4 +24,5 @@ namespace QLTTTA.Models
             return (this.StartTime < other.EndTime) && (other.StartTime < this.EndTime);
         }
     }
+
 }

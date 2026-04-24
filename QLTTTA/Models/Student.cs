@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,5 +22,6 @@ namespace QLTTTA.Models
         }
 
         public override string GetInfo() => $"[Học viên] MSSV: {StudentCode} | Tên: {FullName} | Trình độ: {CurrentLevel}";
-    }
+        
+      }    
 }
